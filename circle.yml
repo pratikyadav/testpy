@@ -3,4 +3,4 @@ machine:
     version: pypy-2.2.1
 test:
   override:
-    - phpunit test.py
+    - test.py
