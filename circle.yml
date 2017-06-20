@@ -3,4 +3,4 @@ machine:
     version: pypy-2.2.1
 test:
   override:
-    - test.py
+    - py.test
