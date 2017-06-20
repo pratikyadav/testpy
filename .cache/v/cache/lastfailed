@@ -1,0 +1,4 @@
+{
+  "tests/test_cli.py": true, 
+  "tests/test_mod.py": true
+}

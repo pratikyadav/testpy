@@ -3,4 +3,5 @@ machine:
     version: 2.7.5
 test:
   override:
+    - pip install .
     - python py.test
