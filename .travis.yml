@@ -4,11 +4,12 @@ python:
   - "3.4"
 install:
   - "pip install coveralls"
+  - "pip install codecov"
   - "pip install -e .[test]"
-script: 
+script:
   - py.test
   - coverage run --source=testpy -m py.test
 after_success:
   - coveralls
+  - codecov
 sudo: false
-
