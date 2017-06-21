@@ -1,4 +1,0 @@
-
-      [console_scripts]
-      testpy=testpy.scripts.cli:cli
-      
