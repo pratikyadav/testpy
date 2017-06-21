@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+testpy/__init__.py
+testpy.egg-info/PKG-INFO
+testpy.egg-info/SOURCES.txt
+testpy.egg-info/dependency_links.txt
+testpy.egg-info/entry_points.txt
+testpy.egg-info/not-zip-safe
+testpy.egg-info/requires.txt
+testpy.egg-info/top_level.txt
+testpy/scripts/__init__.py
+testpy/scripts/cli.py

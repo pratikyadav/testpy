@@ -1,7 +1,11 @@
-machine:
-  python:
-    version: 2.7.5
+dependencies:
+    override:
+        - pip install tox tox-pyenv codecov
+        - pyenv local 2.7.12 3.6.1
+
 test:
-  override:
-    - pip install .
-    - python py.test
+    override:
+        - tox
+    post: 
+        - codecov -t fca6d390-7196-4f46-878b-149de5996d8b
+        - codecov
