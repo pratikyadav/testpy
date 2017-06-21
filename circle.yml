@@ -6,6 +6,6 @@ dependencies:
 test:
     override:
         - tox
-    post: 
+    post:
         - codecov -t fca6d390-7196-4f46-878b-149de5996d8b
         - codecov
